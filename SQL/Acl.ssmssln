@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF05E4BF-8BFC-4322-8951-E22DA603E269}"
+	ProjectSection(SolutionItems) = preProject
+		tables\accounting.sql = tables\accounting.sql
+		tables\ad_user.sql = tables\ad_user.sql
+		tables\department.sql = tables\department.sql
+		tables\device.sql = tables\device.sql
+		tables\device_type.sql = tables\device_type.sql
+		tables\prescription.sql = tables\prescription.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_insert_", "_insert_", "{C2F45087-5D49-4612-A5CB-ECE0AE054945}"
+	ProjectSection(SolutionItems) = preProject
+		insert\_INSERT_.sql = insert\_INSERT_.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_view_", "_view_", "{CCDE1A71-5C99-4228-ABFB-57725BE987A7}"
+	ProjectSection(SolutionItems) = preProject
+		view\inventory.sql = view\inventory.sql
+		view\logBook.sql = view\logBook.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "import", "import", "{36B093E4-AF7C-4598-9BAE-BD20EA71BF0A}"
+	ProjectSection(SolutionItems) = preProject
+		import\accounting.xls = import\accounting.xls
+		import\device.xls = import\device.xls
+		import\logBook.xls = import\logBook.xls
+		import\prescription.xls = import\prescription.xls
+		import\usb.csv = import\usb.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7D51357-8663-40C5-B243-1F16C6D67A30}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2F45087-5D49-4612-A5CB-ECE0AE054945} = {EF05E4BF-8BFC-4322-8951-E22DA603E269}
+		{CCDE1A71-5C99-4228-ABFB-57725BE987A7} = {EF05E4BF-8BFC-4322-8951-E22DA603E269}
+		{36B093E4-AF7C-4598-9BAE-BD20EA71BF0A} = {EF05E4BF-8BFC-4322-8951-E22DA603E269}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08588F33-9663-4C13-B595-DF122217121A}
+	EndGlobalSection
+EndGlobal
